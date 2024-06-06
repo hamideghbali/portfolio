@@ -17,18 +17,18 @@ export const Hero = () => {
     <div className="flex flex-col md:flex-row md:items-start items-center justify-between p-6 md:p-12 md:mt-20">
       <div className="flex-1 text-center md:text-left md:pr-12 mb-10">
         <h1 className="text-4xl md:text-6xl font-bold md:mb-10 text-gray-800 mb-4">
-          Hello, I'm
+          Hello, I&apos;m
           <br />
           Hamid Eghbali
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-6">
-          I'm a Freelance UI/UX Designer and Developer based in Toronto, Canada.
+          I&apos;m a Freelance UI/UX Designer and Developer based in Toronto, Canada.
           I strive to build immersive and beautiful web applications through
           carefully crafted code and user-centric design.
         </p>
         <Button className="bg-purple-600 text-white hover:bg-purple-500 px-6 py-3 rounded-[5px] ">
           <Link href="/Hamid-res.pdf" target="_blank" rel="noopener noreferrer">
-          My CV / Resume
+            My CV / Resume
           </Link>
         </Button>
         <div className="flex items-center justify-around md:justify-start md:gap-16 gap-4 bg-white  h-[80px] rounded-[10px] md:mt-16 lg:mt-40 xl:mt-80 mt-10 md:h-[110px] md:px-10 ">
@@ -53,3 +53,5 @@ export const Hero = () => {
     </div>
   );
 };
+
+export default Hero;

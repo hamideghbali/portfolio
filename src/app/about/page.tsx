@@ -21,13 +21,13 @@ const About = () => {
           </div>
           <div className="flex-1 text-center md:text-left">
             <p className="text-lg md:text-xl text-gray-700 mb-4">
-              Hi, I'm Hamid Eghbali, a passionate self-taught web developer and UI/UX designer based in Toronto, Canada. With a deep love for creating beautiful and functional web applications, I strive to deliver the best user experiences through thoughtful design and code.
+              Hi, I&apos;m Hamid Eghbali, a passionate self-taught web developer and UI/UX designer based in Toronto, Canada. With a deep love for creating beautiful and functional web applications, I strive to deliver the best user experiences through thoughtful design and code.
             </p>
             <p className="text-lg md:text-xl text-gray-700 mb-4">
               As a self-taught developer, I have dedicated myself to learning and mastering various aspects of web development and design. My journey has equipped me with skills in crafting intuitive user interfaces and building robust web applications. My goal is to continuously learn and improve, always staying ahead of the latest trends and technologies.
             </p>
             <p className="text-lg md:text-xl text-gray-700">
-              When I'm not working on projects, you can find me exploring the outdoors, reading books, playing soccer, or working out for muscle. I'm always open to new opportunities and collaborations, so feel free to reach out and say hello!
+              When I&apos;m not working on projects, you can find me exploring the outdoors, reading books, playing soccer, or working out for muscle. I&apos;m always open to new opportunities and collaborations, so feel free to reach out and say hello!
             </p>
           </div>
         </div>

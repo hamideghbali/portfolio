@@ -31,7 +31,7 @@ export const Process = () => {
             <FaLaptop className="text-[50px] text-white bg-purple-400 p-3 mb-5 rounded-[3px]" />
             <h1 className="font-bold mb-3">4. Launch</h1>
             <p className="text-gray-800 text-sm tracking-[2px]">
-              Finally, I launch the project and make sure everything goes smoothly. I'm here to help with any issues that come up.
+              Finally, I launch the project and make sure everything goes smoothly. I&apos;m here to help with any issues that come up.
             </p>
           </div>
         </div>
