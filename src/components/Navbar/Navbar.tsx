@@ -24,9 +24,17 @@ export const Navbar = () => {
     <nav className="flex justify-between py-3 px-4 sm:px-10 md:pr-24 mt-6">
       <div className="flex items-center gap-2">
         <Link href="/">
-          <Image src={HE} alt="HE" width={50} height={50} className="w-[50px] h-[50px]" />
+          <Image
+            src={HE}
+            alt="HE"
+            width={50}
+            height={50}
+            className="w-[50px] h-[50px]"
+          />
         </Link>
-        <span className="text-purple-800 font-bold">HAMID EGHBALI</span>
+        <Link href="/">
+          <span className="text-purple-800 font-bold">HAMID EGHBALI</span>
+        </Link>
       </div>
       <div className="grid grid-cols-2 gap-2">
         {SHEET_SIDES.map((side) => (
@@ -50,12 +58,18 @@ export const Navbar = () => {
                   <Link href="/portfolio">Portfolio</Link>
                 </Button>
                 <Button className="bg-purple-600 rounded-[6px] text-white hover:bg-purple-500">
-                  <Link href="/Hamid-res.pdf" target="_blank" rel="noopener noreferrer">My CV / Resume</Link>
+                  <Link
+                    href="/Hamid-res.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    My CV / Resume
+                  </Link>
                 </Button>
               </div>
               <SheetFooter className="flex items-center mt-96 ">
                 <Link href="/">
-                  <Image src={HE} alt="HE" className="w-[150px]"/>
+                  <Image src={HE} alt="HE" className="w-[150px]" />
                 </Link>
               </SheetFooter>
             </SheetContent>
@@ -65,13 +79,27 @@ export const Navbar = () => {
       <div className="hidden sm:flex items-center sm:justify-end ">
         <div className="flex gap-6 md:gap-12">
           <Button>
-            <Link href="/about" className="hover:bg-gray-200 rounded-[6px] p-3">About</Link>
+            <Link href="/about" className="hover:bg-gray-200 rounded-[6px] p-3">
+              About
+            </Link>
           </Button>
           <Button>
-            <Link href="/portfolio" className="hover:bg-gray-200 rounded-[6px] p-3">Portfolio</Link>
+            <Link
+              href="/portfolio"
+              className="hover:bg-gray-200 rounded-[6px] p-3"
+            >
+              Portfolio
+            </Link>
           </Button>
           <Button>
-            <Link href="/Hamid-res.pdf" target="_blank" rel="noopener noreferrer" className="bg-purple-600 rounded-[6px] text-white hover:bg-purple-500 p-3">My CV / Resume</Link>
+            <Link
+              href="/Hamid-res.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 rounded-[6px] text-white hover:bg-purple-500 p-3"
+            >
+              My CV / Resume
+            </Link>
           </Button>
         </div>
       </div>

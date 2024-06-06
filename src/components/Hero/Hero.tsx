@@ -33,7 +33,7 @@ export const Hero = () => {
         </Button>
         <div className="flex items-center justify-around md:justify-start md:gap-16 gap-4 bg-white  h-[80px] rounded-[10px] md:mt-16 lg:mt-40 xl:mt-80 mt-10 md:h-[110px] md:px-10 ">
           <Link
-            href="//linkedin.com/in/hamid-egh"
+            href="https://linkedin.com/in/hamid-egh"
             className="text-purple-600 text-3xl hover:text-purple-500 fonts scale-125"
             target="_blank"
           >

@@ -33,7 +33,7 @@ export const Footer = () => {
               <FaEnvelope className="w-6 h-6" />
             </Link>
             <Link
-              href="//linkedin.com/in/hamid-egh"
+              href="https://linkedin.com/in/hamid-egh"
               className="text-gray-400 hover:text-white"
               target="_blank"
             >
