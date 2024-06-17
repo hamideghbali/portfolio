@@ -22,12 +22,12 @@ export const Hero = () => {
           Hamid Eghbali
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-6">
-          I&apos;m a Freelance UI/UX Designer and Developer based in Toronto, Canada.
+          I&apos;m a Web Developer based in Toronto, Canada.
           I strive to build immersive and beautiful web applications through
           carefully crafted code and user-centric design.
         </p>
         <Button className="bg-purple-600 text-white hover:bg-purple-500 px-6 py-3 rounded-[5px] ">
-          <Link href="/Hamid-res.pdf" target="_blank" rel="noopener noreferrer">
+          <Link href="/Hamid-CV.pdf" target="_blank" rel="noopener noreferrer">
             My CV / Resume
           </Link>
         </Button>

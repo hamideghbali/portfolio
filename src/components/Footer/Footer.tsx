@@ -61,7 +61,7 @@ export const Footer = () => {
               Portfolio
             </Link>
             <Link
-              href="/Hamid-res.pdf"
+              href="/Hamid-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"

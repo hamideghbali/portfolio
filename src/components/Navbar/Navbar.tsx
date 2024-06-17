@@ -59,7 +59,7 @@ export const Navbar = () => {
                 </Button>
                 <Button className="bg-purple-600 rounded-[6px] text-white hover:bg-purple-500">
                   <Link
-                    href="/Hamid-res.pdf"
+                    href="/Hamid-CV.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -93,7 +93,7 @@ export const Navbar = () => {
           </Button>
           <Button>
             <Link
-              href="/Hamid-res.pdf"
+              href="/Hamid-CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-600 rounded-[6px] text-white hover:bg-purple-500 p-3"

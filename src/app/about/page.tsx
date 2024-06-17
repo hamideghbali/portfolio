@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-6">
       <div className="container mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 text-center md:ml-64">
           About Me
         </h1>
         <div className="flex flex-col md:flex-row items-center">
