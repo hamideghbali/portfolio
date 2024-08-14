@@ -23,7 +23,8 @@ import note from "@/assets/note/image.png";
 import kebab from "@/assets/kebab/image.png";
 import kebab1 from "@/assets/kebab/image1.png";
 import kebab2 from "@/assets/kebab/image2.png";
-
+import Country from "@/assets/countries/image.png";
+import Country1 from "@/assets/countries/image1.png";
 import HE from "@/assets/HEicon.png";
 
 interface Project {
@@ -37,6 +38,15 @@ interface Project {
 const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
+      title: "Rest Countries",
+      description:
+        "A project showcasing country information using the REST Countries API.",
+      slug: "rest-countries",
+      link: "https://country-lrd3u5mak-hardin.vercel.app/", // Update to Vercel URL
+      images: [Country, Country1],
+    },
+
+    {
       title: "Home Rentals",
       description: "A platform for finding and renting homes.",
       slug: "home-rentals",
@@ -49,14 +59,14 @@ const Portfolio: React.FC = () => {
       slug: "cab-hub",
       link: "https://github.com/hamideghbali/cab-hub",
       images: [cabHub, cabHub1, cabHub2, cabHub3],
-      },
-        {
-          title: "Kebab Store ",
-          description: "A simple and effective note-taking application.",
-          slug: "kebab-store",
-          link: "https://github.com/hamideghbali/kebeb-store",
-          images: [kebab, kebab1, kebab2],
-        },
+    },
+    {
+      title: "Kebab Store ",
+      description: "A simple and effective note-taking application.",
+      slug: "kebab-store",
+      link: "https://github.com/hamideghbali/kebeb-store",
+      images: [kebab, kebab1, kebab2],
+    },
     {
       title: "Tie Project",
       description: "An innovative project management tool.",
@@ -113,7 +123,9 @@ const Portfolio: React.FC = () => {
               key={project.slug}
               className="bg-white p-6 rounded-lg shadow-md"
             >
-              <CustomSlider images={project.images} />
+              <div className="w-full h-72 mb-4">
+                <CustomSlider images={project.images} />
+              </div>
               <h2 className="text-2xl font-bold text-gray-800 mt-4 mb-2">
                 <Link href={project.link} target="_blank">
                   <span className="cursor-pointer hover:text-purple-600">
