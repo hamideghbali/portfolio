@@ -55,7 +55,7 @@ export const Navbar = () => {
                   <Link href="/about">About</Link>
                 </Button>
                 <Button className="hover:bg-gray-200 rounded-[6px]">
-                  <Link href="/portfolio">Portfolio</Link>
+                  <Link href="/portfolio">Projects</Link>
                 </Button>
                 <Button className="bg-purple-600 rounded-[6px] text-white hover:bg-purple-500">
                   <Link
@@ -88,7 +88,7 @@ export const Navbar = () => {
               href="/portfolio"
               className="hover:bg-gray-200 rounded-[6px] p-3"
             >
-              Portfolio
+              Projects
             </Link>
           </Button>
           <Button>

@@ -58,7 +58,7 @@ export const Footer = () => {
               About
             </Link>
             <Link href="/portfolio" className="text-gray-400 hover:text-white">
-              Portfolio
+              Projects
             </Link>
             <Link
               href="/Hamid-CV.pdf"
