@@ -26,6 +26,10 @@ import kebab2 from "@/assets/kebab/image2.png";
 import Country from "@/assets/countries/image.png";
 import Country1 from "@/assets/countries/image1.png";
 import HE from "@/assets/HEicon.png";
+import quiz from "@/assets/quiz-app/quiz-app.png"
+import quiz1 from "@/assets/quiz-app/quiz-app1.png"
+import task from "@/assets/task-list/task-list.png"
+
 
 interface Project {
   title: string;
@@ -39,11 +43,26 @@ const Portfolio: React.FC = () => {
   const projects: Project[] = [
     {
       title: "Rest Countries",
-      description:
-        "A project showcasing country information using the REST Countries API.",
+      description:"A project showcasing country information using the REST Countries API.",
       slug: "rest-countries",
       link: "https://country-lrd3u5mak-hardin.vercel.app/", // Update to Vercel URL
       images: [Country, Country1],
+    },
+
+    {
+      title: "Task List",
+      description: "A to-do app with AWS Amplify and DynamoDB.",
+      slug: "task-list",
+      link: "https://main.d38j5at2zfnot2.amplifyapp.com/",
+      images: [task],
+    },
+
+    {
+      title: "Quiz App",
+      description: "A quiz app with user authentication via AWS Cognito.",
+      slug: "quiz-app",
+      link: "https://main.d2dbxs4uu86hci.amplifyapp.com/",
+      images: [quiz, quiz1],
     },
 
     {
@@ -104,7 +123,7 @@ const Portfolio: React.FC = () => {
     },
     {
       title: "Coding Problems",
-      description: "A simple and effective note-taking application.",
+      description: "A collection of algorithmic coding challenges and solutions.",
       slug: "coding-problems",
       link: "https://github.com/hamideghbali/coding-problem",
       images: [HE],

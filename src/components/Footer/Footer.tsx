@@ -2,7 +2,7 @@ import React from "react";
 import HE from "@/assets/HEwhite.png";
 import Link from "next/link";
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaEnvelope,} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import First from "@/assets/image.png";
 import Second from "@/assets/image-1.png";
 import Third from "@/assets/image-2.png";
@@ -17,9 +17,9 @@ export const Footer = () => {
             <span className="text-2xl font-bold">HAMID EGHBALI</span>
           </Link>
           <p className="text-gray-400 text-center md:text-left">
-            Freelance UI/UX Designer and Developer based in Toronto, Canada. I
-            strive to build immersive and beautiful web applications through
-            carefully crafted code and user-centric design.
+            AWS Certified Fullstack Cloud Developer based in Toronto, Canada.
+            Passionate about building scalable, immersive, and user-focused web
+            applications through innovative cloud solutions and refined code.
           </p>
         </div>
         <div className="flex flex-col items-center md:items-start mb-6 md:mb-0 md:px-4">
