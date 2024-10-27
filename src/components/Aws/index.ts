@@ -1,1 +1,1 @@
-export {Aws} from "./AWS"
+export {Aws} from "./Aws"
