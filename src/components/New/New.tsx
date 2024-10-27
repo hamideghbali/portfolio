@@ -4,7 +4,7 @@ import Link from "next/link";
 import Country from "@/assets/countries/image2.png"; // Replace with your actual image path
 import { Button } from "../ui/button";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { FaPinterest } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
 
 export const New = () => {
   return (
@@ -26,25 +26,25 @@ export const New = () => {
         {/* Tech Stack Badges */}
         <div className="flex items-center justify-around md:justify-start md:gap-16 gap-4 bg-white h-[80px] rounded-[10px] md:mt-16 lg:mt-28 xl:mt-48 mt-10 md:h-[110px] md:px-10">
           <Link
-            href="/"
+            href="https://nextjs.org/"
             className="text-purple-600 text-3xl hover:text-purple-500 scale-125"
             target="_blank"
           >
             <RiNextjsFill />
           </Link>
           <Link
-            href="/"
+            href="https://tailwindcss.com/"
             className="text-purple-600 text-3xl hover:text-purple-500"
             target="_blank"
           >
             <RiTailwindCssFill />
           </Link>
           <Link
-            href="/"
+            href="https://aws.amazon.com/"
             className="text-purple-600 text-3xl hover:text-purple-500"
             target="_blank"
           >
-            <FaPinterest />
+            <FaAws />
           </Link>
         </div>
       </div>
