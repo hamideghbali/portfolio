@@ -22,9 +22,11 @@ export const Hero = () => {
           Hamid Eghbali
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-6">
-          I&apos;m a Web Developer based in Toronto, Canada.
-          I strive to build immersive and beautiful web applications through
-          carefully crafted code and user-centric design.
+          I&apos;m an AWS Certified Fullstack Cloud Developer based in Toronto,
+          Canada. With a focus on AWS cloud services, I excel in designing and
+          implementing scalable, high-performance applications using
+          cutting-edge technologies such as React, Next.js, TypeScript, and
+          Tailwind CSS.
         </p>
         <Button className="bg-purple-600 text-white hover:bg-purple-500 px-6 py-3 rounded-[5px] ">
           <Link href="/Hamid-CV.pdf" target="_blank" rel="noopener noreferrer">

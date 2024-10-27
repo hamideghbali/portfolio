@@ -2,7 +2,7 @@ import React from "react";
 import HE from "@/assets/HEwhite.png";
 import Link from "next/link";
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope,} from "react-icons/fa";
 import First from "@/assets/image.png";
 import Second from "@/assets/image-1.png";
 import Third from "@/assets/image-2.png";
