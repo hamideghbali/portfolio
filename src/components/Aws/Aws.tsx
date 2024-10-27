@@ -26,7 +26,7 @@ export const Aws = () => {
           AWS Certified Fullstack Cloud Developer
         </h2>
         <p className="text-lg md:text-xl text-gray-600 mb-6">
-          I'm proud to hold an AWS Cloud Practitioner Certification, which
+          I&apos;m proud to hold an AWS Cloud Practitioner Certification, which
           validates my skills in leveraging AWS cloud services to design, build,
           and deploy scalable applications. Explore my projects to see AWS tools
           like Lambda, DynamoDB, and Amplify in action!
